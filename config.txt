@@ -19,9 +19,9 @@ gpu_mem=320
 # Set 'force_turbo=1' to disable dynamic overclocking and enable overclocking always.
 force_turbo=0
 
-dtparam=audio=on
-#dtoverlay=hifiberry-digi
-dtoverlay=iqaudio-digi-wm8804-audio
+#dtparam=audio=on
+dtoverlay=hifiberry-digi
+#dtoverlay=iqaudio-digi-wm8804-audio
 #device_tree_overlay=hifiberry-digi
 dtdebug=1
 
